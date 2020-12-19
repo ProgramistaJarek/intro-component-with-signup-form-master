@@ -1,0 +1,14 @@
+body {
+  background-image: url("/images/bg-intro-mobile.png");
+  background-repeat: no-repeat;
+  background-color: $red;
+}
+
+@media (min-width: 376px) {
+  body {
+    background-image: url("/images/bg-intro-desktop.png");
+    background-position: top center;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
