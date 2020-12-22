@@ -40,16 +40,16 @@
       </div>
 
       <form>
-        <input type="text" placeholder="First Name">
-        <p class="warning">First Name cannot be empty</p>
-        <input type="text" placeholder="Last Name">
-        <p class="warning">Last Name cannot be empty</p>
-        <input type="text" placeholder="Email Address">
-        <p class="warning">Looks like this is not an email</p>
-        <input type="password" placeholder="Password">
-        <p class="warning">Password cannot be empty</p>
+        <input id="first" type="text" placeholder="First Name">
+        <p class="warning" id="firstName">First Name cannot be empty</p>
+        <input id="last" type="text" placeholder="Last Name">
+        <p class="warning" id="lastName">Last Name cannot be empty</p>
+        <input id="inputEmail" type="email" placeholder="Email Address">
+        <p class="warning" id="email">Looks like this is not an email</p>
+        <input id="inputPassword" type="password" placeholder="Password">
+        <p class="warning" id="password">Password cannot be empty</p>
 
-        <button type="submit">Claim your free trial</button>
+        <button type="button">Claim your free trial</button>
 
         <div class="info">
           <p>By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
@@ -64,6 +64,7 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  <script src="/script/script.js"></script>
 </body>
 
 </html>
